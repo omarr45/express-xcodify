@@ -22,7 +22,7 @@ mongoose
 app.use('/api/books', booksRouter);
 
 app.get('/', (_, res) => {
-  res.send('Hello World');
+  res.send('API Working well');
 });
 
 app.listen(PORT, () => {
